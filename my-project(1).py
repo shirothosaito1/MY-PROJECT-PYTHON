@@ -1,3 +1,4 @@
+print("Currency Calculator")
 # Conversion rates
 usd_usd = 1
 usd_eur = 0.9707
