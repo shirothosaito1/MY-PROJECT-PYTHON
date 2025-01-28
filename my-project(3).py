@@ -208,7 +208,6 @@ elif ask == "METER" and ask_convert == "INCH":
     print(ask_amount * m_in)
 elif ask == "METER" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * m_nmi)
-
 elif ask == "KILOMETER" and ask_convert == "METER":
     print(ask_amount * km_m)
 elif ask == "KILOMETER" and ask_convert == "KILOMETER":
@@ -232,8 +231,7 @@ elif ask == "KILOMETER" and ask_convert == "FEET":
 elif ask == "KILOMETER" and ask_convert == "INCH":
     print(ask_amount * km_in)
 elif ask == "KILOMETER" and ask_convert == "NAUTICAL MILE":
-    print(ask_amount * km_nmi)
-
+    print(ask_amount * km_nm)
 elif ask == "DECIMETER" and ask_convert == "METER":
     print(ask_amount * dm_m)
 elif ask == "DECIMETER" and ask_convert == "KILOMETER":
@@ -258,7 +256,6 @@ elif ask == "DECIMETER" and ask_convert == "INCH":
     print(ask_amount * dm_in)
 elif ask == "DECIMETER" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * dm_nmi)
-
 elif ask == "CENTIMETER" and ask_convert == "METER":
     print(ask_amount * cm_m)
 elif ask == "CENTIMETER" and ask_convert == "KILOMETER":
@@ -307,7 +304,6 @@ elif ask == "MILLIMETER" and ask_convert == "INCH":
     print(ask_amount * mm_in)
 elif ask == "MILLIMETER" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * mm_nmi)
-
 elif ask == "MICROMETER" and ask_convert == "METER":
     print(ask_amount * μm_m)
 elif ask == "MICROMETER" and ask_convert == "KILOMETER":
@@ -332,7 +328,6 @@ elif ask == "MICROMETER" and ask_convert == "INCH":
     print(ask_amount * μm_in)
 elif ask == "MICROMETER" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * μm_nmi)
-
 elif ask == "NANOMETER" and ask_convert == "METER":
     print(ask_amount * nm_m)
 elif ask == "NANOMETER" and ask_convert == "KILOMETER":
@@ -429,7 +424,6 @@ elif ask == "FEET" and ask_convert == "INCH":
     print(ask_amount * ft_in)
 elif ask == "FEET" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * ft_nmi)
-
 elif ask == "INCH" and ask_convert == "METER":
     print(ask_amount * in_m)
 elif ask == "INCH" and ask_convert == "KILOMETER":
@@ -478,6 +472,5 @@ elif ask == "NAUTICAL MILE" and ask_convert == "INCH":
     print(ask_amount * nmi_in)
 elif ask == "NAUTICAL MILE" and ask_convert == "NAUTICAL MILE":
     print(ask_amount * nmi_nmi)
-
 else:
     print("Invalid input. Please check your unit selections.")
